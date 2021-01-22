@@ -3,7 +3,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 from modules import webpage_module
 
-BOT_PREFIX = ("tabela")
+BOT_PREFIX = ("tabela ")
 client = Bot(command_prefix=BOT_PREFIX)
 
 @client.event
@@ -44,7 +44,7 @@ async def lec(ctx, *args):
     
     webpage_module.printaTabela("LEC")
 
-    await ctx.message.channel.send(file=discord.File('cortado.png'))
+    await ctx.message.channel.send(file=discord.File('cortado.png'), content="Tá na mão, Tabela da LEC!")
 
 @client.command(name='lcs',
                 pass_context=True)
@@ -53,6 +53,6 @@ async def lcs(ctx, *args):
     
     webpage_module.printaTabela("LCS")
 
-    await ctx.message.channel.send(file=discord.File('cortado.png'))
+    await ctx.message.channel.send(file=discord.File('cortado.png'), content="Tá na mão, Tabela da LCS!")
 
-client.run('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.run('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
