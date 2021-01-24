@@ -11,16 +11,20 @@ client.remove_command('help')
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
+#Variaveis iniciais
+ligas = ['CBLOL','LCS','LPL','LEC','LCK']
+command = ""
+
 # Gerenciar os Comandos
-def commandManager(nome):
+def commandManager(nome: str, question:bool):
     command = client.get_command(nome)
 
-    if command.enabled == False:
+    if question == False:
 
-        command.update(enabled=True)
+        command.update(enabled=False)
     else:
         
-        command.update(enabled=False)
+        command.update(enabled=True)
 
 # Tabelas específicas de cada região (Só regiões Major e o CBLOL)
 @client.command(name='cblol',
@@ -65,7 +69,7 @@ async def all(ctx, *args):
     actualServer = ctx.message.guild
 
     await ctx.message.channel.send(content="Calma que tu pediu muita coisa, vou mandar agora! :cowboy: ")
-
+        
     await ctx.message.channel.send(file=discord.File('images/lcs.png'))
     await ctx.message.channel.send(file=discord.File('images/lec.png'))
     await ctx.message.channel.send(file=discord.File('images/lck.png'))
@@ -78,13 +82,21 @@ async def all(ctx, *args):
 async def update(ctx, *args):
     actualServer = ctx.message.guild
     
-    await ctx.message.channel.send(content="Certo vou atualizar os arquivos. Vou fechar os comandos pros Bronze não fazer cagada! :cowboy: ")
+    await ctx.message.channel.send(content="Certo vou atualizar os arquivos. :cowboy: ")
+    await ctx.message.channel.send(content="Durante a atualização, não vou atender ninguém! :cowboy:")
     
-    web.printaTabela("LCS")
-    web.printaTabela("CBLOL")
-    web.printaTabela("LCK")
-    web.printaTabela("LPL")
-    web.printaTabela("LEC")
+    
+    for x in ligas:
+        commandManager(x.lower(), False)
+        print("Comando"+client.get_command(x.lower())+": "+client.get_command(x.lower()).enabled)
+
+    for x in ligas:
+
+        await web.pesquisaTabela(x)
+
+    for x in ligas:
+        commandManager(x.lower(), True)
+        print("Comando"+client.get_command(x.lower())+": "+client.get_command(x.lower()).enabled)
 
     await ctx.message.channel.send(content="Beleza, tudo atualizado. Pode usar os comandos de novo :cowboy:")
 
@@ -106,4 +118,4 @@ async def on_command_error(ctx, error):
             return
 
 
-client.run('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx')
+client.run('XXXXXXXXXXXXXXXXXXxxxxxxxxxxxXXXXXXXXXXXXXXXX')
