@@ -1,14 +1,14 @@
 from selenium import webdriver
 from PIL import Image
 
-def printaTabela(liga):
+def pesquisaTabela(liga:str):
     nome = ""
-    #browser exposes an executable file
-    #Through Selenium test we will invoke the executable file which will then
+    
     #invoke actual browser
     fireFoxOptions = webdriver.FirefoxOptions()
     fireFoxOptions.set_headless()
     driver = webdriver.Firefox(firefox_options=fireFoxOptions)
+    # driver = webdriver.Firefox()
     if liga == "CBLOL":
         #get method to launch the URL
         driver.get("https://lol.gamepedia.com/CBLOL/2021_Season/Split_1")
@@ -60,3 +60,54 @@ def printaTabela(liga):
     imgLogo.save(nome)
     #to close the browser
     driver.close()
+
+def pesquisaCStats(liga:str):
+    nome = ""
+
+    if liga == "CBLOL":
+        #get method to launch the URL
+        return "https://cutt.ly/nj1vFdU"
+        
+    elif liga == "LCS":
+         #get method to launch the URL
+       return "O Torneio não começou ainda!"
+                
+    elif liga == "LEC":
+        #get method to launch the URL
+        return "https://cutt.ly/Gj1v2C2"
+        
+        
+    elif liga == "LCK":
+        #get method to launch the URL
+        return "https://cutt.ly/9j2vX6W"
+        
+        
+    elif liga == "LPL":
+        #get method to launch the URL
+        return "https://cutt.ly/Qj2v83z"
+
+def pesquisaPStats(liga:str):
+    nome = ""
+
+    if liga == "CBLOL":
+        #get method to launch the URL
+        return "https://bit.ly/3sYsm0s"
+        
+    elif liga == "LCS":
+         #get method to launch the URL
+       return "O Torneio não começou ainda!"
+                
+    elif liga == "LEC":
+        #get method to launch the URL
+        return "https://bit.ly/3okCc92"
+        
+        
+    elif liga == "LCK":
+        #get method to launch the URL
+        return "https://bit.ly/2MkOalX"
+        
+        
+    elif liga == "LPL":
+        #get method to launch the URL
+        return "https://bit.ly/3ojtGaz"
+

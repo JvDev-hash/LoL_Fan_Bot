@@ -1477,3 +1477,663 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1611494832202	geckodriver	INFO	Listening on 127.0.0.1:46925
+1611494833147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOVj9yz"
+*** You are running in headless mode.
+
+(firefox:5984): GLib-GObject-WARNING **: 10:27:13.437: invalid (NULL) pointer instance
+
+(firefox:5984): GLib-GObject-CRITICAL **: 10:27:13.438: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6113): GLib-GObject-WARNING **: 10:27:13.767: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6113): GLib-GObject-CRITICAL **: 10:27:13.767: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6134): GLib-GObject-WARNING **: 10:27:13.872: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6134): GLib-GObject-CRITICAL **: 10:27:13.872: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:6211): GLib-GObject-WARNING **: 10:27:14.400: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6211): GLib-GObject-CRITICAL **: 10:27:14.400: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611494834576	Marionette	INFO	Listening on port 37385
+1611494834678	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:6253): GLib-GObject-WARNING **: 10:27:14.788: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6253): GLib-GObject-CRITICAL **: 10:27:14.788: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611495027661	geckodriver	INFO	Listening on 127.0.0.1:39947
+1611495027666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefyTJKJ"
+*** You are running in headless mode.
+
+(firefox:6640): GLib-GObject-WARNING **: 10:30:27.944: invalid (NULL) pointer instance
+
+(firefox:6640): GLib-GObject-CRITICAL **: 10:30:27.944: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6769): GLib-GObject-WARNING **: 10:30:28.256: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6769): GLib-GObject-CRITICAL **: 10:30:28.256: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6790): GLib-GObject-WARNING **: 10:30:28.371: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6790): GLib-GObject-CRITICAL **: 10:30:28.371: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:6866): GLib-GObject-WARNING **: 10:30:28.879: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6866): GLib-GObject-CRITICAL **: 10:30:28.880: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611495029053	Marionette	INFO	Listening on port 35065
+1611495029086	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:6909): GLib-GObject-WARNING **: 10:30:29.282: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6909): GLib-GObject-CRITICAL **: 10:30:29.282: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611495055321	Marionette	INFO	Stopped listening on port 35065
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLQYuCCt6m0f0xCxMLPOSBRml7tIRi_BjSJlP4KZB0s.js line 1 > eval line 7453 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GLQYuCCt6m0f0xCxMLPOSBRml7tIRi_BjSJlP4KZB0s.js line 1 > eval line 7453 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611495563849	geckodriver	INFO	Listening on 127.0.0.1:50341
+1611495563855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileizF1JP"
+*** You are running in headless mode.
+
+(firefox:7494): GLib-GObject-WARNING **: 10:39:24.137: invalid (NULL) pointer instance
+
+(firefox:7494): GLib-GObject-CRITICAL **: 10:39:24.137: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7611): GLib-GObject-WARNING **: 10:39:24.452: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7611): GLib-GObject-CRITICAL **: 10:39:24.452: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7632): GLib-GObject-WARNING **: 10:39:24.570: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7632): GLib-GObject-CRITICAL **: 10:39:24.570: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:7710): GLib-GObject-WARNING **: 10:39:25.120: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7710): GLib-GObject-CRITICAL **: 10:39:25.120: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611495565283	Marionette	INFO	Listening on port 37679
+1611495565398	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:7752): GLib-GObject-WARNING **: 10:39:25.463: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7752): GLib-GObject-CRITICAL **: 10:39:25.463: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611495951541	geckodriver	INFO	Listening on 127.0.0.1:51709
+1611495951547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegwnZhw"
+*** You are running in headless mode.
+
+(firefox:8055): GLib-GObject-WARNING **: 10:45:51.820: invalid (NULL) pointer instance
+
+(firefox:8055): GLib-GObject-CRITICAL **: 10:45:51.820: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8180): GLib-GObject-WARNING **: 10:45:52.123: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8180): GLib-GObject-CRITICAL **: 10:45:52.123: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8201): GLib-GObject-WARNING **: 10:45:52.218: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8201): GLib-GObject-CRITICAL **: 10:45:52.218: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:8276): GLib-GObject-WARNING **: 10:45:52.746: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8276): GLib-GObject-CRITICAL **: 10:45:52.746: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611495952919	Marionette	INFO	Listening on port 41505
+1611495952966	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:8318): GLib-GObject-WARNING **: 10:45:53.156: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8318): GLib-GObject-CRITICAL **: 10:45:53.156: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611495970188	Marionette	INFO	Stopped listening on port 41505
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1611495972046	geckodriver	INFO	Listening on 127.0.0.1:33405
+1611495972050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWZVeNG"
+*** You are running in headless mode.
+
+(firefox:8411): GLib-GObject-WARNING **: 10:46:12.341: invalid (NULL) pointer instance
+
+(firefox:8411): GLib-GObject-CRITICAL **: 10:46:12.341: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8540): GLib-GObject-WARNING **: 10:46:12.659: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8540): GLib-GObject-CRITICAL **: 10:46:12.659: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8565): GLib-GObject-WARNING **: 10:46:12.754: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8565): GLib-GObject-CRITICAL **: 10:46:12.754: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:8637): GLib-GObject-WARNING **: 10:46:13.307: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8637): GLib-GObject-CRITICAL **: 10:46:13.307: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611495973509	Marionette	INFO	Listening on port 36009
+1611495973571	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:8682): GLib-GObject-WARNING **: 10:46:13.691: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8682): GLib-GObject-CRITICAL **: 10:46:13.691: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611495998602	Marionette	INFO	Stopped listening on port 36009
+1611495998970	geckodriver	INFO	Listening on 127.0.0.1:59451
+1611495998973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerpygIi"
+*** You are running in headless mode.
+
+(firefox:8763): GLib-GObject-WARNING **: 10:46:39.271: invalid (NULL) pointer instance
+
+(firefox:8763): GLib-GObject-CRITICAL **: 10:46:39.271: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8898): GLib-GObject-WARNING **: 10:46:39.597: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8898): GLib-GObject-CRITICAL **: 10:46:39.597: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8919): GLib-GObject-WARNING **: 10:46:39.697: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8919): GLib-GObject-CRITICAL **: 10:46:39.697: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:8995): GLib-GObject-WARNING **: 10:46:40.270: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8995): GLib-GObject-CRITICAL **: 10:46:40.270: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611496000465	Marionette	INFO	Listening on port 38335
+1611496000496	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:9037): GLib-GObject-WARNING **: 10:46:40.630: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9037): GLib-GObject-CRITICAL **: 10:46:40.630: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611496017917	Marionette	INFO	Stopped listening on port 38335
+1611496018267	geckodriver	INFO	Listening on 127.0.0.1:36387
+1611496018270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHwv34l"
+*** You are running in headless mode.
+
+(firefox:9126): GLib-GObject-WARNING **: 10:46:58.581: invalid (NULL) pointer instance
+
+(firefox:9126): GLib-GObject-CRITICAL **: 10:46:58.581: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:9258): GLib-GObject-WARNING **: 10:46:58.899: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9258): GLib-GObject-CRITICAL **: 10:46:58.899: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:9282): GLib-GObject-WARNING **: 10:46:59.015: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9282): GLib-GObject-CRITICAL **: 10:46:59.015: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:9358): GLib-GObject-WARNING **: 10:46:59.538: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9358): GLib-GObject-CRITICAL **: 10:46:59.538: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611496019706	Marionette	INFO	Listening on port 39715
+1611496019799	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:9400): GLib-GObject-WARNING **: 10:46:59.914: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9400): GLib-GObject-CRITICAL **: 10:46:59.914: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611496035633	Marionette	INFO	Stopped listening on port 39715
+1611496038127	geckodriver	INFO	Listening on 127.0.0.1:41797
+1611496038130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh5NixL"
+*** You are running in headless mode.
+
+(firefox:9480): GLib-GObject-WARNING **: 10:47:18.427: invalid (NULL) pointer instance
+
+(firefox:9480): GLib-GObject-CRITICAL **: 10:47:18.427: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:9619): GLib-GObject-WARNING **: 10:47:18.750: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9619): GLib-GObject-CRITICAL **: 10:47:18.750: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:9645): GLib-GObject-WARNING **: 10:47:18.850: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9645): GLib-GObject-CRITICAL **: 10:47:18.850: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:9716): GLib-GObject-WARNING **: 10:47:19.405: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9716): GLib-GObject-CRITICAL **: 10:47:19.406: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611496039579	Marionette	INFO	Listening on port 32841
+1611496039652	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:9761): GLib-GObject-WARNING **: 10:47:19.776: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:9761): GLib-GObject-CRITICAL **: 10:47:19.776: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611496063116	Marionette	INFO	Stopped listening on port 32841
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611581994609	geckodriver	INFO	Listening on 127.0.0.1:57025
+1611581995599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZzMJlr"
+*** You are running in headless mode.
+
+(firefox:13283): GLib-GObject-WARNING **: 10:39:56.438: invalid (NULL) pointer instance
+
+(firefox:13283): GLib-GObject-CRITICAL **: 10:39:56.438: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:13422): GLib-GObject-WARNING **: 10:39:56.822: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:13422): GLib-GObject-CRITICAL **: 10:39:56.822: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:13443): GLib-GObject-WARNING **: 10:39:56.930: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:13443): GLib-GObject-CRITICAL **: 10:39:56.930: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:13519): GLib-GObject-WARNING **: 10:39:57.520: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:13519): GLib-GObject-CRITICAL **: 10:39:57.588: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611581997752	Marionette	INFO	Listening on port 45039
+1611581997828	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:13560): GLib-GObject-WARNING **: 10:39:57.846: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:13560): GLib-GObject-CRITICAL **: 10:39:57.846: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 469 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 469 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611582310060	geckodriver	INFO	Listening on 127.0.0.1:47237
+1611582310065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJZ3DiE"
+*** You are running in headless mode.
+
+(firefox:14025): GLib-GObject-WARNING **: 10:45:10.390: invalid (NULL) pointer instance
+
+(firefox:14025): GLib-GObject-CRITICAL **: 10:45:10.390: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:14153): GLib-GObject-WARNING **: 10:45:10.733: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14153): GLib-GObject-CRITICAL **: 10:45:10.733: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:14174): GLib-GObject-WARNING **: 10:45:10.831: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14174): GLib-GObject-CRITICAL **: 10:45:10.831: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:14251): GLib-GObject-WARNING **: 10:45:11.399: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14251): GLib-GObject-CRITICAL **: 10:45:11.399: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611582311589	Marionette	INFO	Listening on port 46121
+1611582311729	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:14293): GLib-GObject-WARNING **: 10:45:11.762: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14293): GLib-GObject-CRITICAL **: 10:45:11.762: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1 line 1 > injectedScript, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1 line 1 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1 line 1 > injectedScript, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1 line 1 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611582330232	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 2114 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 2114 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611582343307	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 5094 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 5094 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611582829000	geckodriver	INFO	Listening on 127.0.0.1:60527
+1611582829007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2OeTiw"
+*** You are running in headless mode.
+
+(firefox:14810): GLib-GObject-WARNING **: 10:53:49.312: invalid (NULL) pointer instance
+
+(firefox:14810): GLib-GObject-CRITICAL **: 10:53:49.312: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:14936): GLib-GObject-WARNING **: 10:53:49.648: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14936): GLib-GObject-CRITICAL **: 10:53:49.648: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:14957): GLib-GObject-WARNING **: 10:53:49.746: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:14957): GLib-GObject-CRITICAL **: 10:53:49.746: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:15034): GLib-GObject-WARNING **: 10:53:50.294: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15034): GLib-GObject-CRITICAL **: 10:53:50.294: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611582830543	Marionette	INFO	Listening on port 43107
+1611582830678	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:15077): GLib-GObject-WARNING **: 10:53:50.690: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15077): GLib-GObject-CRITICAL **: 10:53:50.690: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611582852064	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 1622 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 1622 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 1518 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 1518 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611582861795	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 7520 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 7520 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611582895156	Marionette	INFO	Stopped listening on port 43107
+1611583097924	geckodriver	INFO	Listening on 127.0.0.1:38321
+1611583097929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewVAN8a"
+*** You are running in headless mode.
+
+(firefox:15564): GLib-GObject-WARNING **: 10:58:18.259: invalid (NULL) pointer instance
+
+(firefox:15564): GLib-GObject-CRITICAL **: 10:58:18.259: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:15690): GLib-GObject-WARNING **: 10:58:18.598: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15690): GLib-GObject-CRITICAL **: 10:58:18.598: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:15711): GLib-GObject-WARNING **: 10:58:18.693: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15711): GLib-GObject-CRITICAL **: 10:58:18.693: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:15787): GLib-GObject-WARNING **: 10:58:19.254: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15787): GLib-GObject-CRITICAL **: 10:58:19.254: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611583099459	Marionette	INFO	Listening on port 36201
+1611583099592	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:15841): GLib-GObject-WARNING **: 10:58:19.609: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:15841): GLib-GObject-CRITICAL **: 10:58:19.609: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Champion_Statistics line 1 > injectedScript, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Champion_Statistics line 1 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Champion_Statistics line 1 > injectedScript, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://lol.gamepedia.com/CBLOL/2021_Season/Split_1/Champion_Statistics line 1 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611583113712	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1611583126024	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 7410 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 7410 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 2575 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AcHtkIhwNIrCTgQ5lPGfhzyPisNq4yamCoQInXE46FE.js line 1 > eval line 2575 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 3773 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 3773 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 146 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 146 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1611662702147	geckodriver	INFO	Listening on 127.0.0.1:58301
+1611662703131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyPDAMA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611662704764	Marionette	INFO	Listening on port 33589
+1611662704900	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611662748393	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1611662753456	Marionette	INFO	Stopped listening on port 33589
+JavaScript error: , line 0: uncaught exception: undefined
+1611662755851	geckodriver	INFO	Listening on 127.0.0.1:50591
+1611662755854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecz0xat"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611662757668	Marionette	INFO	Listening on port 37485
+1611662757779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611662772471	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1611662776388	Marionette	INFO	Stopped listening on port 37485
+JavaScript error: , line 0: uncaught exception: undefined
+1611662778779	geckodriver	INFO	Listening on 127.0.0.1:55127
+1611662778782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBgS5Kn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611662780658	Marionette	INFO	Listening on port 45417
+1611662780706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611662786176	Marionette	INFO	Stopped listening on port 45417
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611662788261	geckodriver	INFO	Listening on 127.0.0.1:32771
+1611662788264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqhUUug"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611662789957	Marionette	INFO	Listening on port 33297
+1611662789985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://lol.gamepedia.com/load.php?debug=false&lang=en&modules=BannerNotifications-9ca9c939.js%7CDesignSystemIcons-3b1d86c2.js%7CGoogleTracker-46b2c72a.js%7CTracker-468571a5.js%7C_commonjsHelpers-8c00e48e.js%7C_create-property-af30b10d.js%7C_defined-667d8898.js%7C_export-36a41b84.js%7C_invoke-1f522f92.js%7C_iter-detect-b310d1dd.js%7C_library-d80f6828.js%7C_object-create-e257fbc8.js%7C_set-collection-from-c70aea68.js%7C_set-species-16d5af54.js%7C_to-object-5672c55f.js%7C_tslib-671238a9.js%7CasyncToGenerator-16ea0c69.js%7CbrowserDetect-d2468dc3.js%7Ccache-31e218b0.js%7CcommunicationService-8395ebb2.js%7CcreateClass-a2a5cf2a.js%7Cdefine-property-73b1ff0d.js%7Cdefine-property-dda76538.js%7CdefineProperty-f238a0c6.js%7Centries-31a1a8a1.js%7Ces6.string.iterator-7b73950f.js%7Ces6.symbol-50e2e763.js%7Cext.TippingOver.wikiTooltips%7Cext.cite.ux-enhancements%7Cext.collapsiblevector.collapsibleNav%7Cext.fandom.AffiliateService.js%7Cext.fandom.AnalyticsEngine.comscore.js%7Cext.fandom.AnalyticsEngine.quantcast.js%7Cext.fandom.CreatePage.js%7Cext.fandom.FacebookTags.js%7Cext.fandom.WikiaInYourLang.js%7Cext.fandom.ae.babTracking.js%7Cext.fandom.ae.consentQueue.js%7Cext.fandom.bannerNotifications.js%7Cext.fandom.performanceMonitoring.js%7Cext.flaggedRevs.advanced%7Cext.social.scripts%7Cext.visualEditor.desktopArticleTarget.init%7Cext.visualEditor.progressBarWidget%2CsupportCheck%2CtargetLoader%2CtempWikitextEditorWidget%2Ctrack%2Cve%7Cfrom-f0a5ec23.js%7Cgeo-a444f32f.js%7Cget-own-property-symbols-8619550d.js%7Cget-own-property-symbols-9b501608.js%7Cindex-b6ae190d.js%7Cis-array-84ee181e.js%7Cjquery%7Cjquery-6bff12cf.js%7Cjquery.accessKeyLabel%2CcheckboxShiftClick%2Cclient%2Ccookie%2CgetAttrs%2ChighlightText%2CmakeCollapsible%2Csuggestions%2CtabIndex%2CtextSelection%2Cthrottle-debounce%7Cjs.cookie-8b03cf9d.js%7Ckeys-6c8ecfbb.js%7Ckeys-76f14210.js%7Clog-28c0cbc1.js%7Cmap-86a18187.js%7Cmediawiki.RegExp%2CString%2CTitle%2CUri%2Capi%2Cbase%2Ccookie%2Cnotification%2Cnotify%7Cmediawiki.editfont.styles%7Cmediawiki.page.ready&skin=hydra&version=0soo43v, line 225: NS_ERROR_NOT_INITIALIZED: 
+1611662791881	Marionette	INFO	Stopped listening on port 33297
+1611662963294	geckodriver	INFO	Listening on 127.0.0.1:36229
+1611662963298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepOFpDp"
+*** You are running in headless mode.
+
+(firefox:6662): GLib-GObject-WARNING **: 09:09:23.629: invalid (NULL) pointer instance
+
+(firefox:6662): GLib-GObject-CRITICAL **: 09:09:23.629: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6780): GLib-GObject-WARNING **: 09:09:23.972: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6780): GLib-GObject-CRITICAL **: 09:09:23.972: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:6801): GLib-GObject-WARNING **: 09:09:24.063: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6801): GLib-GObject-CRITICAL **: 09:09:24.063: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:6877): GLib-GObject-WARNING **: 09:09:24.610: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6877): GLib-GObject-CRITICAL **: 09:09:24.610: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662964838	Marionette	INFO	Listening on port 35829
+1611662964994	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:6922): GLib-GObject-WARNING **: 09:09:25.008: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:6922): GLib-GObject-CRITICAL **: 09:09:25.009: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662970873	Marionette	INFO	Stopped listening on port 35829
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1611662972031	geckodriver	INFO	Listening on 127.0.0.1:58093
+1611662972035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZMJjK1"
+*** You are running in headless mode.
+
+(firefox:7007): GLib-GObject-WARNING **: 09:09:32.463: invalid (NULL) pointer instance
+
+(firefox:7007): GLib-GObject-CRITICAL **: 09:09:32.463: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7139): GLib-GObject-WARNING **: 09:09:32.814: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7139): GLib-GObject-CRITICAL **: 09:09:32.814: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7162): GLib-GObject-WARNING **: 09:09:32.919: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7162): GLib-GObject-CRITICAL **: 09:09:32.919: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:7237): GLib-GObject-WARNING **: 09:09:33.494: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7237): GLib-GObject-CRITICAL **: 09:09:33.494: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662973673	Marionette	INFO	Listening on port 40301
+1611662973772	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:7281): GLib-GObject-WARNING **: 09:09:33.832: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7281): GLib-GObject-CRITICAL **: 09:09:33.833: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662977054	Marionette	INFO	Stopped listening on port 40301
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611662977523	geckodriver	INFO	Listening on 127.0.0.1:37605
+1611662977527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRoy26t"
+*** You are running in headless mode.
+
+(firefox:7347): GLib-GObject-WARNING **: 09:09:37.859: invalid (NULL) pointer instance
+
+(firefox:7347): GLib-GObject-CRITICAL **: 09:09:37.859: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7479): GLib-GObject-WARNING **: 09:09:38.219: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7479): GLib-GObject-CRITICAL **: 09:09:38.219: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7500): GLib-GObject-WARNING **: 09:09:38.323: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7500): GLib-GObject-CRITICAL **: 09:09:38.323: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:7574): GLib-GObject-WARNING **: 09:09:38.855: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7574): GLib-GObject-CRITICAL **: 09:09:38.855: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662979122	Marionette	INFO	Listening on port 45497
+1611662979154	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:7620): GLib-GObject-WARNING **: 09:09:39.234: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7620): GLib-GObject-CRITICAL **: 09:09:39.234: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611662981724	Marionette	INFO	Stopped listening on port 45497
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1611662983574	geckodriver	INFO	Listening on 127.0.0.1:57027
+1611662983577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYBKrdO"
+*** You are running in headless mode.
+
+(firefox:7685): GLib-GObject-WARNING **: 09:09:43.847: invalid (NULL) pointer instance
+
+(firefox:7685): GLib-GObject-CRITICAL **: 09:09:43.847: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7821): GLib-GObject-WARNING **: 09:09:44.185: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7821): GLib-GObject-CRITICAL **: 09:09:44.185: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:7842): GLib-GObject-WARNING **: 09:09:44.291: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7842): GLib-GObject-CRITICAL **: 09:09:44.291: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:7919): GLib-GObject-WARNING **: 09:09:44.860: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7919): GLib-GObject-CRITICAL **: 09:09:44.860: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662985096	Marionette	INFO	Listening on port 43109
+1611662985208	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib64/firefox/firefox:7966): GLib-GObject-WARNING **: 09:09:45.208: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:7966): GLib-GObject-CRITICAL **: 09:09:45.209: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611662993675	Marionette	INFO	Stopped listening on port 43109
+1611662994136	geckodriver	INFO	Listening on 127.0.0.1:41307
+1611662994141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWBrBiG"
+*** You are running in headless mode.
+
+(firefox:8036): GLib-GObject-WARNING **: 09:09:54.422: invalid (NULL) pointer instance
+
+(firefox:8036): GLib-GObject-CRITICAL **: 09:09:54.423: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8169): GLib-GObject-WARNING **: 09:09:54.750: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8169): GLib-GObject-CRITICAL **: 09:09:54.750: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib64/firefox/firefox:8192): GLib-GObject-WARNING **: 09:09:54.852: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8192): GLib-GObject-CRITICAL **: 09:09:54.852: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib64/firefox/firefox:8267): GLib-GObject-WARNING **: 09:09:55.424: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8267): GLib-GObject-CRITICAL **: 09:09:55.425: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662995669	Marionette	INFO	Listening on port 36807
+
+(/usr/lib64/firefox/firefox:8312): GLib-GObject-WARNING **: 09:09:55.771: invalid (NULL) pointer instance
+
+(/usr/lib64/firefox/firefox:8312): GLib-GObject-CRITICAL **: 09:09:55.771: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1611662995773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1611663004496	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 3786 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3vc-yikGQSYNMI_SN9q6XlBJafn8TB7LAHFf2ljGZQ8.js line 1 > eval line 3786 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1611663021655	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1089: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+1611663034479	Marionette	INFO	Stopped listening on port 36807
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C0005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000A,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
