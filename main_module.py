@@ -70,7 +70,7 @@ async def cstats(ctx, *args):
                 pass_context=True)
 async def pstats(ctx, *args):
 
-    url = web.pesquisaCStats(args[0].upper())
+    url = web.pesquisaPStats(args[0].upper())
 
     await ctx.message.channel.send(content="Beleza, pesquisado: "+url)
 
