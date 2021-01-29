@@ -3,17 +3,26 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 from modules import webpage_module as web
 
+# My Own module to hide the discord developer code, for github upload purposes
+from modules import discord_module as dis
+
 BOT_PREFIX = ("!")
 client = Bot(command_prefix=BOT_PREFIX)
 client.remove_command('help')
+DISCORD_CODE = dis.getDiscordCode()
 
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
-#Variaveis iniciais
+#Variaveis/Functions iniciais
 ligas = ['CBLOL','LCS','LPL','LEC','LCK']
 command = ""
+
+
+def index_in_list(a_list, index):
+
+    return index < len(a_list)
 
 # Tabelas específicas de cada região (Só regiões Major e o CBLOL)
 @client.command(name='table',
@@ -57,22 +66,34 @@ async def update(ctx, *args):
     await ctx.message.channel.send(content="Beleza, tudo atualizado. Pode usar os comandos de novo.")
 
 # Champion Stats
-@client.command(name='CStats',
+@client.command(name='cstats',
                 pass_context=True)
 async def cstats(ctx, *args):
+    indice = index_in_list(args, 1)
+    print(indice)
+    url = ""
 
-    url = web.pesquisaCStats(args[0].upper())
-
-    await ctx.message.channel.send(content="Beleza, pesquisado: "+url)
+    if args[0] != "" and indice == False:
+        url = web.pesquisaCStats(args[0].upper(), "")
+        await ctx.message.channel.send(content="Beleza, pesquisado: "+url)
+    else:
+        url = web.pesquisaCStats(args[0].upper(), args[1])
+        await ctx.message.channel.send(file=discord.File(url), content="Tá aí os stats que tu pediu!")
 
 # Player Stats
-@client.command(name='PStats',
+@client.command(name='pstats',
                 pass_context=True)
 async def pstats(ctx, *args):
+    indice = index_in_list(args, 1)
+    print(indice)
+    url = ""
 
-    url = web.pesquisaPStats(args[0].upper())
-
-    await ctx.message.channel.send(content="Beleza, pesquisado: "+url)
+    if args[0] != "" and indice == False:
+        url = web.pesquisaPStats(args[0].upper(), "")
+        await ctx.message.channel.send(content="Beleza, pesquisado: "+url)
+    else:
+        url = web.pesquisaPStats(args[0].upper(), args[1])
+        await ctx.message.channel.send(file=discord.File(url), content="Tá aí os stats que tu pediu!")
 
 @client.event
 async def on_command_error(ctx, error):
@@ -91,4 +112,5 @@ async def on_command_error(ctx, error):
             await ctx.message.channel.send(content="O Comando ta fechado, Bronze apressado! :cowboy: ")
             return
 
-client.run('XXXXXXXXXxxxxxxxxxxxXXXXXXXXXXXXxxxxxxxxx')
+
+client.run(dis.uncryptDiscordCode(DISCORD_CODE))
